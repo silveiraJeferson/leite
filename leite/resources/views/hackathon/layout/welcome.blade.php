@@ -9,10 +9,11 @@
         <meta name="author" content="">
         <link rel="icon" href="../../favicon.ico">
 
-        <title>Hackathon</title>
-
+        <title>MilkOn</title>
+        
         <!-- Bootstrap core CSS -->
         <link href="{{asset('bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+        <link href="{{asset('bootstrap/dist/css/myCss.css')}}" rel="stylesheet">
 
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -32,8 +33,12 @@
     </head>
 
     <body>
-
-        <a href="{{url('/')}}"><h1 class="bg-primary">Nome do Sistema</h1></a>
+        <div class="barra-superior" >
+           
+            
+            <a href="{{url('/')}}">MilkOn</a>
+        </div>
+        
         <div class="container">
             
             @yield('content')

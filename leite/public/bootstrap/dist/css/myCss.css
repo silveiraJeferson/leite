@@ -7,63 +7,70 @@ and open the template in the editor.
     Created on : 30/03/2017, 19:56:59
     Author     : jeferson
 */
-body{
-    background-color: #494138;
+.barra-superior{
+    color: white;
+
+    padding: 1%;
+    background-color: #007fff;
+}
+
+.barra-superior > a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.form-login{
+    border: 1px solid black;
+    padding: 3%;
+    width: 40%;
+    margin-top: 5%;
+
+}
+.btn-inicio{
+    color: white;
+    width: 40%;
+    height:50px;
+    font-size: 20px;
+}
+.botoes-inicio{
+    margin-top: 10%;
+}
+.azul-milkon{
+    background-color: #007fff;
+}
+
+.inicio-animais{
+
+    width: 50%;
+    height:100px;
+    position:absolute;
+    top:50%;
+    left:40%;
+
+}
+#busca-vaca{
+    margin-top: 100px;
+    height: 50px;
+    width: 70%;
+}
+.add-animal{
     
 }
-.jumbotron{
-    background-image: url('../img/dinheiro.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-     opacity: 0.5;  
+.btn-cadastrar{
+    width: 150px;
+}
+.relatorio{
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    margin-top: 150px;
+}
+.ordenha{
+   width: 80%;
 }
 
-#ola{
-    color: black;
-    font-weight: bold;
-   font-size: 90px;
-}
-.conferencia{
-    display: block;  
-     float: left; 
+.nome-campo{
+    width: 300px;
 }
 
-.conferir{
-    background-color: #ccc;
-    font-size: 15px;
-}
-.cont{
-    float: right;
-    margin-right: 15px;
-}
-
-.ultimo_resultado{
-   float: right;
-   margin-top: 40px;
-   
-}
-.direita{
-    margin-right: 0;
-}
-
-
-.menu-index{
-    height: 310px;
-   width: 100%;
-   height: 150px;
-   margin-bottom: 15px;
-    font-style: verdana;
-}
-
-
-
-.list{
-    border:solid 1px #000000;
-    width:100%;
-    height:400px;
-    overflow:auto;
-}
-
-.footer{
-    color: #ccc;
-}
