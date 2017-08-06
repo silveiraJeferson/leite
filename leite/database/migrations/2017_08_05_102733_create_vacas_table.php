@@ -14,8 +14,13 @@ class CreateVacasTable extends Migration
     {
         Schema::create('vacas', function($table) {
 
-            $table->integer('id');
-            $table->string('nome');            
+            $table->increments('id');
+            $table->integer('id_produtor');
+            $table->string('data_nascimento');            
+            $table->string('raca');            
+            $table->string('pai');            
+            $table->string('mae');            
+            $table->string('foto');            
             $table->timestamps();
         });
     }

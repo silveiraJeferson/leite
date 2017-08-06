@@ -33,7 +33,11 @@
 
     <body>
 
-        <h1 class="btn btn-primary">Nosso Sistema Começa Aqui...</h1>
+        <a href="{{url('/')}}"><h1 class="bg-primary">Nome do Sistema</h1></a>
+        <div class="container">
+            
+            @yield('content')
+        </div>
 
 
         <!-- Bootstrap core JavaScript
